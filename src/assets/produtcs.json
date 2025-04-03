@@ -1,8 +1,8 @@
 [
-    { "id": 1, "Espresso": "Producto 1", "price": 10, "image": "url-imagen-1" },
-    { "id": 2, "Latte": "Producto 2", "price": 20, "image": "url-imagen-2" },    
-    { "id": 3, "Americano": "Producto 1", "price": 10, "image": "url-imagen-1" },
-    { "id": 4, "Lungo": "Producto 2", "price": 20, "image": "url-imagen-2" },    
-    { "id": 5, "Cortado": "Producto 1", "price": 10, "image": "url-imagen-1" },
-    { "id": 6, "Latte Macchiato": "Producto 2", "price": 20, "image": "url-imagen-2" }
+    { "id": 1, "Espresso": "Producto 1", "price": 3, "image": "url-imagen-1" },
+    { "id": 2, "Latte": "Producto 2", "price": 5, "image": "url-imagen-2" },    
+    { "id": 3, "Americano": "Producto 3", "price": 4, "image": "url-imagen-1" },
+    { "id": 4, "Lungo": "Producto 4", "price": 4, "image": "url-imagen-2" },    
+    { "id": 5, "Cortado": "Producto 5", "price": 4.5, "image": "url-imagen-1" },
+    { "id": 6, "Latte Macchiato": "Producto 6", "price": 5, "image": "url-imagen-2" }
 ]
