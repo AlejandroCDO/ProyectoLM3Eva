@@ -1,1 +1,78 @@
-<p>payment works!</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout - El Rincón del Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/app/payment/payment.component.css">
+<body>
+
+    <div class="checkout-card">
+      <h1>Finalizar Compra - El Rincón del Café</h1>
+  
+      <form>
+        <div class="section">
+          <h2>Información de Envío</h2>
+          <div class="grid">
+            <div>
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div>
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" required />
+            </div>
+            <div>
+              <label for="direccion">Dirección</label>
+              <input type="text" id="direccion" name="direccion" required />
+            </div>
+            <div>
+              <label for="ciudad">Ciudad</label>
+              <input type="text" id="ciudad" name="ciudad" required />
+            </div>
+            <div>
+              <label for="cp">Código Postal</label>
+              <input type="text" id="cp" name="cp" required />
+            </div>
+          </div>
+        </div>
+  
+        <div class="section">
+          <h2>Método de Pago</h2>
+          <div class="grid">
+            <div>
+              <label for="metodo-pago">Método</label>
+              <select id="metodo-pago" name="metodo-pago" required>
+                <option value="">Selecciona</option>
+                <option value="tarjeta">Tarjeta de Crédito</option>
+                <option value="paypal">PayPal</option>
+                <option value="transferencia">Transferencia Bancaria</option>
+              </select>
+            </div>
+            <div>
+              <label for="numero-tarjeta">Número de Tarjeta</label>
+              <input type="text" id="numero-tarjeta" name="numero-tarjeta" placeholder="1234 5678 9012 3456" />
+            </div>
+            <div>
+              <label for="fecha-exp">Fecha Expiración</label>
+              <input type="text" id="fecha-exp" name="fecha-exp" placeholder="MM/AA" />
+            </div>
+            <div>
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="123" />
+            </div>
+          </div>
+        </div>
+  
+        <button type="submit" class="submit-btn">Confirmar Compra</button>
+      </form>
+    </div>
+  
+  </body>
+  </html>
+  

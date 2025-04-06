@@ -1,0 +1,111 @@
+:root {
+    --marron-oscuro: #3e2c23;
+    --marron: #7b4b28;
+    --marron-claro: #a67b5b;
+    --crema: #e4d0b7;
+    --blanco: #ffffff;
+    --sombra: rgba(0, 0, 0, 0.1);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--crema);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .checkout-card {
+    background-color: var(--blanco);
+    border-radius: 20px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 10px 30px var(--sombra);
+    width: 100%;
+    max-width: 850px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .checkout-card:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  h1 {
+    text-align: center;
+    color: var(--marron-oscuro);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  .section h2 {
+    font-size: 1.1rem;
+    color: var(--marron);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--marron-claro);
+    padding-bottom: 0.4rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  label {
+    font-weight: 600;
+    color: var(--marron-oscuro);
+    margin-bottom: 0.3rem;
+    display: block;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #fffaf7;
+    color: var(--marron-oscuro);
+    transition: border-color 0.3s ease;
+  }
+
+  input:focus, select:focus {
+    border-color: var(--marron-claro);
+    outline: none;
+  }
+
+  .submit-btn {
+    width: 100%;
+    background: var(--marron);
+    color: white;
+    padding: 0.85rem;
+    font-size: 1.05rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition:  0.3s ease;
+    margin-top: 1.5rem;
+  }
+
+  .submit-btn:hover {
+    background: var(--marron-oscuro);
+  }
+
+  @media (max-width: 500px) {
+    .checkout-card {
+      padding: 2rem;
+    }
+  }
