@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-color: #1b3039;
+    background-color: #8b5e3c;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -57,7 +57,7 @@
 }
 
 .header .nav-links li a:hover{
-    color: #ffbc0e;
+    color: #f5f5dc;
 }
 
 .header .btn{
@@ -78,7 +78,7 @@
 
 .header .btn button:hover{
     background-color: #e2f1f8;
-    color: #ffbc0e;
+    color: black;
     transform: scale(1.1);
 }
 
@@ -221,6 +221,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    text-align: center;
 }
 .gallery  h2 {
     text-align: center;
@@ -241,6 +242,17 @@ main {
     border-radius: 8px;
 }
 
+.vermas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8E5E3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .cta {
     text-align: center;
     margin-top: 20px;
@@ -249,14 +261,62 @@ main {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #8E5E3C;
     color: white;
     text-decoration: none;
     border-radius: 4px;
 }
 
 .cta-button:hover {
-    background-color: #218838;
+    background-color: #5D3A3A;
 }
+
+.cta h2 {
+    margin-bottom: 25px;
+}
+.cta p {
+    margin-bottom: 25px;
+}
+
+.reviews {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review {
+    background: #D2b48c;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    max-width: 400px;
+    text-align: center;
+}
+
+.review-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-weight: bold;
+    color: black;
+}
+
 
     
