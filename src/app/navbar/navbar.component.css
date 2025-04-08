@@ -1,11 +1,5 @@
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
-
 .header{
-    background-color: #1b3039;
+    background-color: #8b5e3c;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -57,7 +51,7 @@
 }
 
 .header .nav-links li a:hover{
-    color: #ffbc0e;
+    color: #f5f5dc;
 }
 
 .header .btn{
@@ -78,6 +72,6 @@
 
 .header .btn button:hover{
     background-color: #e2f1f8;
-    color: #ffbc0e;
+    color: black;
     transform: scale(1.1);
 }

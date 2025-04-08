@@ -1,0 +1,121 @@
+.welcome {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.welcome h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.welcome p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.gallery  h2 {
+    text-align: center;
+}
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.vermas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8E5E3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.vermas:hover {
+    background-color: #5D3A3A;
+}
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8E5E3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.cta-button:hover {
+    background-color: #5D3A3A;
+}
+
+.cta h2 {
+    margin-bottom: 25px;
+}
+.cta p {
+    margin-bottom: 25px;
+}
+
+.reviews {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review {
+    background: #D2b48c;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    max-width: 400px;
+    text-align: center;
+}
+
+.review-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-weight: bold;
+    color: black;
+}
