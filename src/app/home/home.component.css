@@ -1,3 +1,7 @@
+.mainBody {
+    margin: 0;
+    background-color: #fff8f0; /* Color café claro */
+  }
 .welcome {
     background: white;
     padding: 20px;
