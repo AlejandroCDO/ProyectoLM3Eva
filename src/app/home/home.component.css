@@ -2,6 +2,25 @@
     margin: 0;
     background-color: #fff8f0; /* Color café claro */
   }
+
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: bottom;
+  }
 .welcome {
     background: white;
     padding: 20px;

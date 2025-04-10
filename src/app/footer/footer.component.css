@@ -63,9 +63,17 @@
     font-size: 1.1rem;
     transition: color 0.4s ease;
   }
-
-  .socials a:hover i {
-    color: aqua;
+  .socials i {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .socials i:hover {
+    transform: scale(1.2);
+    color: black;
   }
 
   .footer-bottom {
