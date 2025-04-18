@@ -11,6 +11,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 const routes: Routes = [
@@ -29,3 +30,14 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
+
+@NgModule({
+  imports: [
+    // Otros imports
+    HttpClientModule
+  ],
+  // ...
+})
+export class AppModule { }
