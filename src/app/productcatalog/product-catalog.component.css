@@ -1,0 +1,50 @@
+/* src/app/product-catalog/product-catalog.component.css */
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  :root {
+    --coffee-bg: #fff8f0;
+    --coffee-primary: #8E5E3C;
+    --coffee-light: #e5d2c0;
+  }
+  
+  .catalog-container {
+    background-color: var(--coffee-bg);
+    min-height: 100vh;
+  }
+  
+  .producto-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .producto-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto-img {
+    height: 280px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+  .text-coffee {
+    color: var(--coffee-primary);
+  }
+  
+  .btn-coffee {
+    background-color: #A67B5B;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-coffee:hover {
+    background-color: #75462b;
+  }
+  
+  

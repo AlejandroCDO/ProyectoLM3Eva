@@ -4,7 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { FooterComponent } from './footer/footer.component';
 import { CatalogoComponent } from './catalog/catalog.component';
-import { ProductCatalogComponent } from './product-catalog/product-catalog.component'; // IMPORTAR AQUÍ
+import { ProductCatalogComponent } from './productcatalog/product-catalog.component'; // IMPORTAR AQUÍ
 import { RegisterComponent } from './register/register.component';
 import { PaymentComponent } from './payment/payment.component';
 import { ContactComponent } from './contact/contact.component';

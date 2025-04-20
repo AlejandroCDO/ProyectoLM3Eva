@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductoService } from '../services/producto.service';
-import { Producto } from '../interfaces/Producto';
+import { Producto } from '../models/producto';
 
 @Component({
   selector: 'app-product-catalog',

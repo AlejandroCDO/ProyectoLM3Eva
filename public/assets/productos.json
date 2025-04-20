@@ -4,21 +4,21 @@
     "nombre": "Cortado",
     "descripcion": "Un cortado es un espresso al que se le añade una pequeña cantidad de leche caliente para reducir su acidez.",
     "precio": 2.50,
-    "imagen": "https://via.placeholder.com/150"
+    "imagen": "https://cdn.discordapp.com/attachments/1357388509853257810/1358459928586748087/raw.png?ex=680660e5&is=68050f65&hm=4819f9ace626763489514becb942870a7efce2ede6e26871702d2de8f8cfefad&"
   },
   {
     "id": 2,
     "nombre": "Capuchino",
     "descripcion": "Un Capuccino es el equilibrio perfecto entre espresso, leche vaporizada y espuma.",
     "precio": 3.00,
-    "imagen": "https://via.placeholder.com/150"
+    "imagen": "https://cdn.discordapp.com/attachments/1328110386376871997/1363557593603113160/image.png?ex=68067777&is=680525f7&hm=806637b347333c241749d1964f779f6d075b11a8174e0023c935eff8fb6f5851&"
   },
   {
     "id": 3,
     "nombre": "Americano",
     "descripcion": "Un café americano es una bebida de café que se prepara añadiendo agua caliente a un espresso.",
     "precio": 2.00,
-    "imagen": "https://via.placeholder.com/150"
+    "imagen": "https://cdn.discordapp.com/attachments/1357388509853257810/1358458454515384330/raw.png?ex=68065f86&is=68050e06&hm=b81f74639c0b32ab5be5672c6caa3105e5240341f6558ca29a9aafd92bc6c177&"
   },
   {
     "id": 4,

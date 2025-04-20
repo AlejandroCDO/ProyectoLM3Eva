@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ProductCatalogComponent } from './productcatalog/product-catalog.component';
 
 
 export const routes: Routes = [
@@ -24,6 +25,7 @@ export const routes: Routes = [
   { path: 'payment', component: PaymentComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about-us', component: AboutusComponent },
+  { path: 'product-catalog', component: ProductCatalogComponent },
   { path: '**', component: NotFoundComponent }
 ];
 
