@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cortado",
+    "descripcion": "Un cortado es un espresso al que se le añade una pequeña cantidad de leche caliente para reducir su acidez.",
+    "precio": 2.50,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "nombre": "Capuchino",
+    "descripcion": "Un Capuccino es el equilibrio perfecto entre espresso, leche vaporizada y espuma.",
+    "precio": 3.00,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "nombre": "Americano",
+    "descripcion": "Un café americano es una bebida de café que se prepara añadiendo agua caliente a un espresso.",
+    "precio": 2.00,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "nombre": "Etiopía Yirgacheffe",
+    "descripcion": "Es un café de especialidad de muy alta calidad, con un aroma muy intenso.",
+    "precio": 3.50,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "nombre": "Kenya AA",
+    "descripcion": "Cultivado a 1750 m de altitud, en suelos volcánicos rojos de gran profundidad y fertilidad, y en un clima húmedo y cálido.",
+    "precio": 3.00,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "nombre": "Panamá Geisha",
+    "descripcion": "Sus notas a jazmín, cítricos dulces, bergamota, chocolate y vainilla se desprenden especialmente al utilizar una cafetera de filtrado.",
+    "precio": 4.00,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "nombre": "Espresso Intenso",
+    "descripcion": "Café espresso con fuerte aroma, carácter y un sabor muy intenso, recubierto por una suave capa de crema.",
+    "precio": 3.50,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "nombre": "Espresso Italiano",
+    "descripcion": "El café espresso tiene una intensa fragancia con notas florales, frutales, pan tostado y chocolate.",
+    "precio": 3.50,
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "nombre": "Espresso Crema",
+    "descripcion": "Sus notas a jazmín, cítricos dulces, bergamota, chocolate y vainilla se desprenden especialmente al utilizar una cafetera de filtrado.",
+    "precio": 3.50,
+    "imagen": "https://via.placeholder.com/150"
+  }
+]

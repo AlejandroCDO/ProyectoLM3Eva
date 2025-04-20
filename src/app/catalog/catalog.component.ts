@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductoService } from './../services/producto.service';
 import { Producto } from './../models/producto';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-catalogo',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive], 
+  imports: [CommonModule, RouterOutlet, RouterLink], 
   templateUrl: './catalog.component.html',
   styleUrls: ['./catalog.component.css']
 })
