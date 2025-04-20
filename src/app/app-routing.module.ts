@@ -12,7 +12,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { HttpClientModule } from '@angular/common/http';
-import { NotFoundComponent } from './components/not-found/not-found.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductCatalogComponent } from './productcatalog/product-catalog.component';
 
 
@@ -26,7 +26,7 @@ export const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'about-us', component: AboutusComponent },
   { path: 'product-catalog', component: ProductCatalogComponent },
-  { path: '**', component: NotFoundComponent }
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
