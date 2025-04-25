@@ -75,6 +75,10 @@ form button {
   cursor: pointer;
 }
 
+form button:hover {
+  background-color: #5D3A3A;
+}
+
 form a {
   font-size: 13px;
   color: #333;
