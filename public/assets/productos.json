@@ -46,20 +46,20 @@
     "nombre": "Espresso Intenso",
     "descripcion": "Café espresso con fuerte aroma, carácter y un sabor muy intenso, recubierto por una suave capa de crema.",
     "precio": 3.50,
-    "imagen": "https://via.placeholder.com/150"
+    "imagen": "https://cdn.mafrservices.com/pim-content/UAE/media/product/1291378/1736348406/1291378_1.jpg?im=Resize=480"
   },
   {
     "id": 8,
     "nombre": "Espresso Italiano",
     "descripcion": "El café espresso tiene una intensa fragancia con notas florales, frutales, pan tostado y chocolate.",
     "precio": 3.50,
-    "imagen": "https://via.placeholder.com/150"
+    "imagen": "https://lamafia.es/wp-content/uploads/2019/08/cafe-espresso-1.png"
   },
   {
     "id": 9,
     "nombre": "Espresso Crema",
     "descripcion": "Sus notas a jazmín, cítricos dulces, bergamota, chocolate y vainilla se desprenden especialmente al utilizar una cafetera de filtrado.",
     "precio": 3.50,
-    "imagen": "https://via.placeholder.com/150"
+    "imagen": "https://cdn11.bigcommerce.com/s-nbc124/product_images/uploaded_images/how-to-make-perfect-espresso-crema-pumphreys-coffee.jpg"
   }
 ]
