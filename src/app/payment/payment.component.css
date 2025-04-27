@@ -125,3 +125,70 @@
       padding: 2rem;
     }
   }
+
+  @media (max-width: 768px) {
+    .checkout-card {
+      padding: 2rem;
+      width: 100%;
+      max-width: 700px;
+    }
+  
+    .grid {
+      grid-template-columns: 1fr; /* Cambiar a una columna en pantallas más pequeñas */
+    }
+  
+    h1 {
+      font-size: 1.4rem; /* Reducir el tamaño del encabezado */
+    }
+  
+    .section h2 {
+      font-size: 0.95rem; /* Ajustar el tamaño de los subtítulos */
+    }
+  
+    label {
+      font-size: 0.9rem; /* Reducir tamaño de las etiquetas */
+    }
+  
+    input, select {
+      font-size: 0.9rem; /* Reducir tamaño de las entradas y selección */
+    }
+  
+    .submit-btn {
+      padding: 0.75rem;
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      padding: 1rem;
+    }
+  
+    .checkout-card {
+      padding: 1.5rem;
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    h1 {
+      font-size: 1.2rem; /* Aún más pequeño para pantallas muy pequeñas */
+    }
+  
+    .section h2 {
+      font-size: 0.85rem; /* Subtítulos más pequeños */
+    }
+  
+    label {
+      font-size: 0.85rem; /* Etiquetas más pequeñas */
+    }
+  
+    input, select {
+      font-size: 0.85rem; /* Entradas más pequeñas */
+    }
+  
+    .submit-btn {
+      padding: 0.7rem;
+      font-size: 0.9rem; /* Reducir tamaño del botón */
+    }
+  }
+  

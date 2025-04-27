@@ -2,9 +2,8 @@
     margin: 0;
     background-color: #fff8f0; /* Color café claro */
   }
-
-
-.banner{
+  
+  .banner {
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -13,61 +12,69 @@
     justify-content: center;
     color: white;
     text-align: center;
-}
-.banner img {
+  }
+  
+  .banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
     object-position: bottom;
   }
-.welcome {
+  
+  .welcome {
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
-}
-.welcome h2 {
+  }
+  
+  .welcome h2 {
     text-align: center;
     margin-bottom: 20px;
-}
-.welcome p {
+  }
+  
+  .welcome p {
     text-align: center;
     width: 65%;
     margin: 0 auto;
-}
-
-.gallery {
+  }
+  
+  .gallery {
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 20px;
-}
-.gallery  h2 {
+  }
+  
+  .gallery h2 {
     text-align: center;
-}
-.gallery-container {
+  }
+  
+  .gallery-container {
     display: flex;
     justify-content: space-between;
-}
-
-.gallery-item {
+  }
+  
+  .gallery-item {
     flex: 1;
     margin: 0 10px;
     text-align: center;
-}
-.gallery-item h4 {
+  }
+  
+  .gallery-item h4 {
     margin: 10px;
-}
-.gallery-item img {
+  }
+  
+  .gallery-item img {
     max-width: 100%;
     border-radius: 8px;
-}
-
-.vermas {
+  }
+  
+  .vermas {
     display: inline-block;
     padding: 10px 20px;
     background-color: #8E5E3C;
@@ -76,55 +83,58 @@
     border-radius: 4px;
     justify-content: center;
     margin-top: 20px;
-}
-.vermas:hover {
+  }
+  
+  .vermas:hover {
     background-color: #5D3A3A;
-}
-.cta {
+  }
+  
+  .cta {
     text-align: center;
     margin-top: 20px;
-}
-
-.cta-button {
+  }
+  
+  .cta-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #8E5E3C;
     color: white;
     text-decoration: none;
     border-radius: 4px;
-}
-
-.cta-button:hover {
+  }
+  
+  .cta-button:hover {
     background-color: #5D3A3A;
-}
-
-.cta h2 {
+  }
+  
+  .cta h2 {
     margin-bottom: 25px;
-}
-.cta p {
+  }
+  
+  .cta p {
     margin-bottom: 25px;
-}
-
-.reviews {
+  }
+  
+  .reviews {
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
-}
-
-.reviews h2 {
+  }
+  
+  .reviews h2 {
     text-align: center;
     margin-bottom: 20px;
-}
-
-.review-container {
+  }
+  
+  .review-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.review {
+  }
+  
+  .review {
     background: #D2b48c;
     padding: 15px;
     border-radius: 5px;
@@ -132,19 +142,19 @@
     margin: 10px 0;
     max-width: 400px;
     text-align: center;
-}
-
-.review-text {
+  }
+  
+  .review-text {
     font-style: italic;
     margin-bottom: 10px;
-}
-
-.review-author {
+  }
+  
+  .review-author {
     font-weight: bold;
     color: black;
-}
-
-.faq {
+  }
+  
+  .faq {
     background: white;
     padding: 20px;
     border-radius: 8px;
@@ -179,5 +189,82 @@
   
   .faq-item p {
     margin-bottom: 20px;
+  }
+  
+  /* --- MEDIA QUERIES --- */
+  
+  /* --- En pantallas pequeñas --- */
+  @media (max-width: 768px) {
+    .banner {
+      display: none; /* Ocultar banner en pantallas pequeñas */
+    }
+  
+    .gallery-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .gallery-item {
+      margin-bottom: 20px;
+      width: 100%; /* Hacer las imágenes más pequeñas en pantallas pequeñas */
+    }
+  
+    .gallery-item img {
+      width: 80%; /* Reducir el tamaño de las imágenes */
+    }
+  
+    .vermas {
+      margin-top: 20px;
+    }
+  
+    .cta {
+      margin-top: 30px;
+    }
+  
+    .reviews .review-container {
+      display: block; /* Hacer la lista de reseñas vertical */
+    }
+  
+    .review {
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+  
+    .faq-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .faq-item {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* --- En pantallas muy pequeñas --- */
+  @media (max-width: 480px) {
+    .gallery-item img {
+      width: 90%; /* Hacer las imágenes aún más pequeñas en pantallas muy pequeñas */
+    }
+  
+    .welcome p {
+      width: 90%; /* Ajustar el texto en pantallas pequeñas */
+    }
+  
+    .cta-button {
+      padding: 8px 16px; /* Hacer el botón más pequeño */
+    }
+  
+    .review-text {
+      font-size: 14px; /* Reducir tamaño de la fuente en reseñas */
+    }
+  
+    .review-author {
+      font-size: 14px; /* Reducir tamaño de la fuente en autor de la reseña */
+    }
+  
+    .faq-item h4 {
+      font-size: 16px; /* Reducir tamaño de los títulos de las preguntas frecuentes */
+    }
   }
   
