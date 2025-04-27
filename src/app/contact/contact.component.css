@@ -46,8 +46,9 @@ button {
 button:hover {
     background-color: #5D3A3A;
 }
-body {
+html, body {
     margin: 0;
+    padding: 0;
     background-color: #fff8f0; /* Color café claro */
   }
 
