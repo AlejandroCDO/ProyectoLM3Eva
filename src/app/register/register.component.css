@@ -85,3 +85,97 @@ form a {
   margin: 10px 0;
   text-decoration: none;
 }
+
+/* Estilos para móviles */
+@media (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px;
+    box-shadow: none;
+  }
+
+  form {
+    width: 100%;
+    padding: 10px;
+  }
+
+  form h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  form input {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  form button {
+    font-size: 14px;
+    padding: 12px 35px;
+  }
+
+  .social-icons {
+    margin: 15px 0;
+  }
+
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+  }
+
+  form span {
+    font-size: 10px;
+  }
+
+  form a {
+    font-size: 12px;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    padding: 30px;
+  }
+
+  .container {
+    width: 80%;
+    padding: 30px;
+  }
+
+  form h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  form input {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  form button {
+    font-size: 14px;
+    padding: 12px 40px;
+  }
+
+  .social-icons {
+    margin: 25px 0;
+  }
+
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+  }
+
+  form span {
+    font-size: 12px;
+  }
+
+  form a {
+    font-size: 14px;
+  }
+}
