@@ -46,5 +46,110 @@
   .btn-coffee:hover {
     background-color: #75462b;
   }
+  /* Para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .catalog-container {
+    padding: 20px;
+  }
+
+  .producto-card {
+    border-radius: 0.75rem;
+  }
+
+  .producto-img {
+    height: 200px; /* Ajuste del tamaño de la imagen en dispositivos pequeños */
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 1.1rem; /* Ajuste del tamaño del título */
+  }
+
+  .card-text {
+    font-size: 0.9rem; /* Ajuste del tamaño de la descripción */
+  }
+
+  .fw-bold {
+    font-size: 1.1rem; /* Ajuste del tamaño del precio */
+  }
+
+  .btn-coffee {
+    padding: 10px; /* Botón más grande */
+  }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+  .catalog-container {
+    padding: 40px 15px;
+  }
+
+  .producto-card {
+    border-radius: 1rem;
+  }
+
+  .producto-img {
+    height: 220px; /* Ajuste de la imagen */
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .fw-bold {
+    font-size: 1.2rem;
+  }
+
+  .btn-coffee {
+    padding: 12px;
+  }
+}
+
+/* Para pantallas grandes */
+@media (min-width: 1200px) {
+  .catalog-container {
+    padding: 60px 10%;
+  }
+
+  .producto-card {
+    border-radius: 1rem;
+  }
+
+  .producto-img {
+    height: 280px; /* Imagen más grande para pantallas grandes */
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-text {
+    font-size: 1.1rem;
+  }
+
+  .fw-bold {
+    font-size: 1.4rem;
+  }
+
+  .btn-coffee {
+    padding: 14px; /* Ajuste de padding en el botón */
+  }
+}
+
   
   
