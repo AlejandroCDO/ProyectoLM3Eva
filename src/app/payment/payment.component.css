@@ -104,6 +104,22 @@
     background: var(--marron-oscuro);
   }
 
+  form button {
+    background-color: #A67B5B;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #5D3A3A;
+  }
+
   @media (max-width: 500px) {
     .checkout-card {
       padding: 2rem;
