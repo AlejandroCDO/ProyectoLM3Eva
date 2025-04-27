@@ -50,3 +50,77 @@ body {
     margin: 0;
     background-color: #fff8f0; /* Color café claro */
   }
+
+  /* Estilos para móviles */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+  }
+
+  .contact-container {
+    width: 100%;
+    padding: 15px;
+    box-shadow: none;
+    margin: 20px 0;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 12px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    padding: 20px;
+  }
+
+  .contact-container {
+    width: 80%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
