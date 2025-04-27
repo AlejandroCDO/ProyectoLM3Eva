@@ -1,62 +1,104 @@
+body {
+  margin: 0;
+  background-color: #fff8f0;
+}
+
 .about-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #4e342e;
-    background-color: #fff8f0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #4e342e;
+  background-color: #fff8f0;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #3e2723;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: #6d4c41;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.about-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #5d4037;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* --- MEDIA QUERY para pantallas pequeñas --- */
+@media (max-width: 768px) {
+  .about-section, .about-section.reverse {
+    flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
   }
-  
-  .about-hero {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  
-  .about-hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    color: #3e2723;
-  }
-  
-  .about-hero p {
-    font-size: 1.2rem;
-    color: #6d4c41;
-  }
-  
-  .about-section {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-bottom: 60px;
-    flex-wrap: wrap;
-  }
-  
-  .about-section.reverse {
-    flex-direction: row-reverse;
-  }
-  
+
   .about-image {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: none; /* Ocultar las imágenes en pantallas pequeñas */
   }
-  
+
   .about-text {
-    flex: 1;
+    text-align: center; /* Centrar el texto */
   }
-  
-  .about-text h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    color: #5d4037;
+
+  .about-hero h1 {
+    font-size: 2.5rem;
   }
-  
-  .about-text p {
+
+  .about-hero p {
     font-size: 1rem;
-    line-height: 1.8;
   }
-  body {
-    margin: 0;
-    background-color: #fff8f0; /* Color café claro */
+}
+
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 2rem;
   }
+
+  .about-hero p {
+    font-size: 0.9rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+  }
+}
